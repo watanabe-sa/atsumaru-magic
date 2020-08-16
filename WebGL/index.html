@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | ATSUMARU_MAGIC</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/build.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div class="webgl-content">
+  	<b><h2><font color="3377ff">ATSUMARU☆MAGIC<br></font></h2></b>
+      <div id="gameContainer" style="width: 1054px; height: 593px"></div>
+    <br>
+    <b>【遊び方】</b><br>
+    ①魔法使いは自動で魔法を撃ちまくります。<br>
+    ②画面をクリックすると、そこに魔法が<font color="red">集まり</font>ます。<br>
+    ③集まる魔法に触れた敵はダメージを受けます。<br>
+    ④制限時間内にたくさん敵を倒し、高得点を目指しましょう！<br>
+    <br>
+    <b>【ヒント】</b><br>
+    ・同時にたくさん倒すと高得点を狙えます。<br>
+    ・集中攻撃したい場所をクリックしましょう。<br>
+    ・魔法を集める度に敵が増え、堅い敵が出やすくなります。<br>
+    </div>
+  </body>
+</html>
